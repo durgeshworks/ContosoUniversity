@@ -1,0 +1,25 @@
+{
+    "builders": [{
+        "type": "amazon-ebs",
+        "region": "us-east-1",
+        "source_ami": "ami-b6af04a0",
+        "instance_type": "m3.medium",
+        "ami_name": "Anjaneya-windows-ami {{timestamp}}",
+        "iam_instance_profile" : "533159_SpinnakerRole",
+        "user_data_file":"{{user `ec2-userdata.ps1`}}",
+        "communicator": "winrm",
+        "winrm_username": "Administrator",
+        "winrm_use_ssl": true,
+        "winrm_insecure": true,
+        "associate_public_ip_address" : true,
+        "tags":{
+                 "spinnaker" : "allowed"}
+    }],
+
+    "provisioners": [
+        {
+            "type": "powershell",
+            "script": "{{user `init.ps1`}}"
+        }
+    ]
+}
