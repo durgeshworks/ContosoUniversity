@@ -38,3 +38,4 @@ C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.Migra
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.csproj.GenerateResource.Cache
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.dll
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.pdb
+C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.csprojResolveAssemblyReference.cache
