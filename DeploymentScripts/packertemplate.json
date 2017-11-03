@@ -1,11 +1,14 @@
 {
+"variables": {
+       "http_port": ""
+    },
     "builders": [{
         "type": "amazon-ebs",
         "region": "us-east-1",
-        "source_ami": "ami-b6af04a0",
+        "source_ami": "ami-27a58d5c",
         "instance_type": "m3.medium",
-        "ami_name": "Anjaneya-windows-ami {{timestamp}}",
-        "iam_instance_profile" : "533159_SpinnakerRole",
+        "iam_instance_profile": "BaseIAMRole",
+        "ami_name": "Anjaneya-ContosoUniversity-ami {{timestamp}}",
         "user_data_file":"{{user `ec2-userdata.ps1`}}",
         "communicator": "winrm",
         "winrm_username": "Administrator",
