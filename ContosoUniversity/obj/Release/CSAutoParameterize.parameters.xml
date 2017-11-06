@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="SchoolContext-Web.config Connection String" description="SchoolContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=coe-mssql.cbqupbcwq7qe.us-east-1.rds.amazonaws.com,1433;Integrated Security=False;User ID=admin;Password=DevOpsCOE2017;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;Initial Catalog=ContosoUniversity2;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Works\\ContosoUniversity\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SchoolContext']/@connectionString" />
-  </parameter>
-</parameters>

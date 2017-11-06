@@ -29,6 +29,7 @@ C:\Works\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.
 C:\Works\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
 C:\Works\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.pdb
 C:\Works\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.xml
+C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.csprojResolveAssemblyReference.cache
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.InitialCreate.resources
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.MaxLengthOnNames.resources
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.Migrations.ComplexDataModel.resources
@@ -38,4 +39,3 @@ C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.Migra
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.csproj.GenerateResource.Cache
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.dll
 C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.pdb
-C:\Works\ContosoUniversity\ContosoUniversity\obj\Release\ContosoUniversity.csprojResolveAssemblyReference.cache
